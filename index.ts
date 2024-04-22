@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
-console.log(chalk.bgWhite.bold.italic.red("WELCOME MY NUMBER GUESSING GAME"));
-console.log(chalk.magenta.bold("___________________________________________________________"));
-console.log();
 
 let randomNumber: number = Math.floor(Math.random() * 6 + 1);
 let numTries: number = 3;
